@@ -10,7 +10,7 @@ To that end, traffic data was exported from Google Analytics and content data fr
 
 Once the model was trained, it was used to predict the tendency of an article to receive above-average organic traffic given every possible feature value along a reasonable range, in combination with all possible values of other features. For example, the model was used to predict traffic for articles consisting of 300, 400, 500 ... 2,000 words in combination with every possible title length, average sentence lenth, and so on. Predictions were then averaged across every combination of other features to predict an average tendency for articles with a certain feature (e.g., articles having 300 words) to appear in the top half of articles in terms of organic traffic (in other words, to create a marginal probability). That process led to the following results:
 
-![results](../figures/results.png)
+![results](figures/results.png)
 
 So what are the **practical takeaways** from these results?
 
